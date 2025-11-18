@@ -64,3 +64,51 @@ $gradient_red-text: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
 h1, h2, h3, h4, h5, h6, b, strong {
   font-weight: 700;
 }
+
+
+//Fonts
+/////////////////////
+h1 {
+  font-size: 38px;
+  line-height: 48px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 32px;
+}
+
+h4 {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+h5 {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+//LINK
+.link{
+  line-height: 20px;
+  color: $active_regular;
+  &:hover{
+    color: $active_hover;
+  }
+  &:active{
+    color: $active_active;
+  }
+}
+
+
+
+
+
+
